@@ -490,7 +490,7 @@ div.card ul {
 /* Contact */
 
 section#contact {
-    padding: 6rem 0;
+    padding: 8rem 1rem;
     text-align: center;
     font-family: monospace;
 
@@ -508,12 +508,12 @@ section#contact {
 
 #contact h2 {
     margin: 0;
-    font-size: 4.5rem;
+    font-size: 7.5rem;
     line-height: 1.1;
 }
 
 #contact p {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 1.4rem;
 }
 
@@ -753,6 +753,10 @@ section#contact {
         margin-inline-end: 0px;
         font-weight: bold;
     }
+
+    #contact h2 {
+        font-size: 5rem;
+    }
 }
 
 
@@ -770,6 +774,14 @@ section#contact {
     section.pricing-plan {
         padding: 2rem;
     }
+      #contact a:first-of-type {
+          margin-right: 0;
+          margin-bottom: 1rem;
+      }
+
+      #contact a {
+          font-size: 1rem;
+      }
 }
 
 
@@ -779,12 +791,12 @@ section#contact {
     }
 
     section.pricing-plan {
-        padding: 1rem 1rem;
+        padding: 1rem;
     }
 
     div.pricing-plan-heading {
         line-height: 1.41;
         letter-spacing: 0;
     }
-
+  
 }
