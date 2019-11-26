@@ -364,7 +364,9 @@ div.special-artist-container img {
 
 .special-artist-bio p {
     font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
+
 
 
 
@@ -603,6 +605,24 @@ section#contact {
 
 
 
+/* Fixed Time */
+
+div.time {
+    position: fixed;
+    top: 85vh;
+    left: 85vw;
+    font-family: monospace;
+    font-size: 1.5rem;
+    word-spacing: -2px;
+    letter-spacing: -1px;
+    line-height: 1.2;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
 
 
 
@@ -688,7 +708,20 @@ section#contact {
         margin-right: 0;
     }
 
+    div.time {
+        top: 85vh;
+        left: 80vw;
+        font-size: 1.5rem;
+
+    }
+
 }
+
+
+
+
+
+
 
 
 @media screen and (max-width: 700px) {
@@ -730,6 +763,8 @@ section#contact {
         margin-right: 1.5rem;
 
     }
+
+
 }
 
 
@@ -869,6 +904,13 @@ section#contact {
     #sponsors img:not(:last-of-type) {
         margin-right: 0;
     }
+
+    div.time {
+        top: 90vh;
+        left: 78vw;
+        font-size: 1.2rem;
+        padding: .2rem 1rem;
+    }
 }
 
 
@@ -895,6 +937,12 @@ section#contact {
     #contact a {
         font-size: 1rem;
     }
+
+    div.time {
+        top: 92vh;
+        left: 73vw;
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -915,5 +963,8 @@ section#contact {
     #sponsors h2 {
         font-size: 5rem;
     }
+
+
+
 
 }
