@@ -303,11 +303,6 @@ li.cards_item:hover {
 }
 
 
-.icons {
-    display: flex;
-    justify-content: space-around;
-    color: #003f5c;
-}
 
 .card-user_details {
     display: flex;
