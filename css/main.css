@@ -372,7 +372,7 @@ div.special-artist-container img {
 
 section.pricing-plan {
     padding: 4rem 12rem;
-    background: var(--color-main)
+    /* background: var(--color-main) */
 }
 
 div.pricing-plan-heading {
@@ -430,9 +430,7 @@ div.card:hover {
     transform: translateY(-1rem);
 }
 
-.border {
-    
-}
+
 
 div.company-card--top:hover,
 div.starter-card--top:hover,
@@ -484,8 +482,11 @@ div.card ul {
 }
 
 
+/* Contact */
 
-
+section#contact {
+    
+}
 
 
 
