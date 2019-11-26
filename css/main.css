@@ -326,7 +326,7 @@ section#performers {
 
 section#special-artist {
     display: flex;
-    padding: 8rem 8.5rem;
+    padding: 5rem 10rem;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -344,7 +344,7 @@ div.special-artist-container {
 
 div.special-artist-container img {
     width: 25rem;
-    height: 30rem;
+    height: 28rem;
     object-fit: cover;
     object-position: top;
     position: absolute;
@@ -364,7 +364,7 @@ div.special-artist-container img {
 
 
 .special-artist-bio p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 
@@ -434,6 +434,10 @@ div.special-artist-container img {
         box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .4);
     }
 
+    section#special-artist {
+        padding: 0;
+    }
+
 }
 
 
@@ -485,6 +489,25 @@ div.special-artist-container img {
 
     body {
         padding: .4rem;
+    }
+
+    section#special-artist {
+        flex-direction: column;
+        padding: 0 4rem;
+
+    }
+
+    .special-artist-bio {
+        width: auto;
+        margin: 2.2rem 0;
+    }
+
+    .special-artist-bio h1 {
+        font-size: 4rem;
+    }
+
+    .special-artist-bio p {
+        font-size: 1.3rem;
     }
 }
 
