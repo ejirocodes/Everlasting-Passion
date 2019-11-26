@@ -553,11 +553,12 @@ section#contact {
     padding-bottom: 1.4rem;
 
 }
+
 .testimonial-img img {
     width: 14rem;
     height: 14rem;
     border-radius: 50%;
-    object-fit: cover; 
+    object-fit: cover;
     margin-right: 4rem;
 }
 
@@ -688,7 +689,19 @@ section#contact {
         padding: 1rem 4rem;
 
     }
+
+    .testimonial-img img {
+        margin-right: 1.5rem;
+    }
+
+    .testimonial-text {
+        margin-right: 1.5rem;
+
+    }
 }
+
+
+
 
 @media screen and (max-width: 550px) {
 
@@ -727,6 +740,8 @@ section#contact {
         font-size: 1.3rem;
     }
 }
+
+
 
 
 @media screen and (max-width: 425px) {
@@ -774,7 +789,6 @@ section#contact {
         position: relative;
         margin-top: 0;
         background-position: top;
-        /* overflow-x: hidden; */
 
     }
 
@@ -803,6 +817,21 @@ section#contact {
     #contact h2 {
         font-size: 5rem;
         padding: .1rem .8rem;
+    }
+
+    #testimonial {
+        padding: 2rem 2rem;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .testimonial-img img {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .testimonial-text {
+        width: auto
     }
 }
 
