@@ -427,7 +427,7 @@ div.card:not(:last-of-type) {
 div.card:hover {
     box-shadow: 4px -1px 4px rgba(0, 0, 0, .5),
         -4px 1px 4px rgba(0, 0, 0, .5);
-    transform: translateY(-1rem);
+    transform: translateY(-1.5rem);
 }
 
 
@@ -520,6 +520,45 @@ section#contact {
 #contact p {
     font-size: 2.5rem;
     margin-bottom: 1.4rem;
+}
+
+
+/* Testimonial */
+
+#testimonial {
+    padding: 6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-text {
+    color: #fff;
+    width: 40%;
+    margin-left: 4rem;
+    font-size: 1.4rem;
+}
+
+.testimonial-text hr {
+    border-color: var(--line-color);
+}
+
+
+.testimonial-text h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+
+.testimonial-text p {
+    padding-bottom: 1.4rem;
+
+}
+.testimonial-img img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 4rem;
 }
 
 
