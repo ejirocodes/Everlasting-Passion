@@ -41,7 +41,7 @@ body {
     color: var(--color-main);
     background-color: #333;
     padding: 2rem;
-
+    overflow-x: hidden;
 }
 
 nav {
@@ -508,6 +508,10 @@ section#contact {
 
 
 #contact h2 {
+    border: 2px dotted var(--color-main);
+    display: inline-block;
+    padding: .5rem 5rem;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 1);
     margin: 0;
     font-size: 7.5rem;
     line-height: 1.1;
@@ -518,7 +522,7 @@ section#contact {
     margin-bottom: 1.4rem;
 }
 
-
+/* Footer */
 
 
 
@@ -757,6 +761,7 @@ section#contact {
 
     #contact h2 {
         font-size: 5rem;
+        padding: .1rem .8rem;
     }
 }
 
