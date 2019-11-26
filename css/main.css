@@ -42,6 +42,9 @@ body {
     background-color: #333;
     padding: 2rem;
     overflow-x: hidden;
+    cursor: url(../img/cursor@2x.png),
+    auto;
+
 }
 
 nav {
@@ -619,7 +622,6 @@ div.time {
     background-color: #fff;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    cursor: pointer;
 }
 
 
