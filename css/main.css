@@ -482,6 +482,75 @@ div.card ul {
 }
 
 
+/* Testimonial */
+
+#testimonial {
+    padding: 6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-text {
+    color: #fff;
+    width: 40%;
+    margin-left: 4rem;
+    font-size: 1.4rem;
+}
+
+.testimonial-text hr {
+    border-color: var(--line-color);
+}
+
+
+.testimonial-text h1 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+}
+
+.testimonial-text p {
+    padding-bottom: 1.4rem;
+
+}
+
+.testimonial-img img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 4rem;
+}
+
+
+/* Sponsors */
+
+#sponsors {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+#sponsors h2 {
+    font-size: 6rem;
+    font-family: monospace;
+}
+
+#sponsors p {
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+#sponsors img {
+    width: 15rem;
+    margin-bottom: 4rem;
+}
+
+
+#sponsors img:not(:last-of-type) {
+    margin-right: 2rem;
+}
+
 
 /* Contact */
 
@@ -523,44 +592,7 @@ section#contact {
 }
 
 
-/* Testimonial */
 
-#testimonial {
-    padding: 6rem 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.testimonial-text {
-    color: #fff;
-    width: 40%;
-    margin-left: 4rem;
-    font-size: 1.4rem;
-}
-
-.testimonial-text hr {
-    border-color: var(--line-color);
-}
-
-
-.testimonial-text h1 {
-    font-size: 3.2rem;
-    text-transform: uppercase;
-}
-
-.testimonial-text p {
-    padding-bottom: 1.4rem;
-
-}
-
-.testimonial-img img {
-    width: 14rem;
-    height: 14rem;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 4rem;
-}
 
 
 
@@ -833,6 +865,10 @@ section#contact {
     .testimonial-text {
         width: auto
     }
+
+    #sponsors img:not(:last-of-type) {
+        margin-right: 0;
+    }
 }
 
 
@@ -874,6 +910,10 @@ section#contact {
     div.pricing-plan-heading {
         line-height: 1.41;
         letter-spacing: 0;
+    }
+
+    #sponsors h2 {
+        font-size: 5rem;
     }
 
 }
