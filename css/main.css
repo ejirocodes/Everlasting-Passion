@@ -63,7 +63,6 @@ div.nav-main ul li:not(:last-of-type) {
 div.br {
     width: 1px;
     height: 14px;
-    border-right: 1.6px solid var(--color-main);
     align-self: center;
 }
 
@@ -374,7 +373,6 @@ div.special-artist-container img {
 section.pricing-plan {
     padding: 4rem 12rem;
     background: var(--color-main)
-
 }
 
 div.pricing-plan-heading {
@@ -418,14 +416,22 @@ div.price-card-container {
     background: linear-gradient(to right top, #E028A2, #F0086B);
     width: 32rem;
     height: auto;
-    margin-top: 2rem
-    
+    margin-top: 2rem;
+    transition: all cubic-bezier(0.47, 0, 0.745, 0.715) .3s;
 }
+
 div.card:not(:last-of-type) {
     margin-right: 1rem;
 }
+
 div.card:hover {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    box-shadow: 4px -1px 4px rgba(0, 0, 0, .5),
+    -4px 1px 4px rgba(0, 0, 0, .5);
+    transform: translateY(-1rem);
+}
+
+.border {
+    
 }
 
 div.company-card--top:hover,
@@ -460,7 +466,7 @@ div.card ul {
 
 .btn-card {
     outline: none;
-    border: 2px dotted #fff;
+    border: 1.5px dotted #fff;
     border-radius: 13rem;
     padding: 1.3rem 6rem;
     color: #fff;
@@ -498,10 +504,23 @@ div.card ul {
 
 /* Media queries */
 
-@media screen and (max-width: 848px) {
-    nav {
-
+@media screen and (max-width: 1024px) {
+    .card h3:first-of-type {
+        font-size: 2.5rem;
     }
+
+    .card h3 {
+        font-weight: 400;
+        font-size: 3rem;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .btn-card {
+        font-size: 1.2rem;
+    }
+
+}
 
 @media screen and (max-width: 848px) {
     nav {
@@ -556,6 +575,9 @@ div.card ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    div.card:not(:last-of-type) {
+        margin-right: 0;
     }
 
 }
