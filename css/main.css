@@ -68,6 +68,7 @@ div.br {
     width: 1px;
     height: 14px;
     align-self: center;
+    background-color: var(--color-main);
 }
 
 div.nav-main ul li a {
