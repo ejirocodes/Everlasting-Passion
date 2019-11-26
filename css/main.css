@@ -257,11 +257,11 @@ li.cards_item:hover {
     transform: translateY(2rem)
 }
 
-/* @media (min-width: 40rem) {
+@media (min-width: 40rem) {
     .cards_item {
         width: 50%;
     }
-} */
+}
 
 @media (min-width: 56rem) {
     .cards_item {
@@ -269,7 +269,7 @@ li.cards_item:hover {
     }
 }
 
-.card {
+.cardd {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
@@ -369,6 +369,115 @@ div.special-artist-container img {
 
 
 
+/* Tickets */
+
+section.pricing-plan {
+    padding: 4rem 12rem;
+    background: var(--color-main)
+
+}
+
+div.pricing-plan-heading {
+    line-height: 1.2;
+    letter-spacing: 2px;
+    color: #fff;
+
+}
+
+section.pricing-plan h1 {
+    font-weight: 800;
+    font-size: 4.3rem;
+    color: #fff;
+
+}
+
+section.pricing-plan h2 {
+    font-weight: 400;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+
+section.pricing-plan p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    line-height: 1.5;
+}
+
+div.price-card-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+.card {
+    background: linear-gradient(to right top, #E028A2, #F0086B);
+    width: 32rem;
+    height: auto;
+    margin-top: 2rem
+    
+}
+div.card:not(:last-of-type) {
+    margin-right: 1rem;
+}
+div.card:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+div.company-card--top:hover,
+div.starter-card--top:hover,
+div.advanced-card--top:hover {
+    background: linear-gradient(to right, #E028A2, #F0086B);
+    cursor: pointer;
+}
+
+
+div.card ul {
+    list-style: none;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    line-height: 3;
+    padding: 2rem;
+    color: #fff;
+}
+
+.card h3 {
+    font-weight: 400;
+    font-size: 3.8rem;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.card h3:first-of-type {
+    font-size: 3rem;
+}
+
+.btn-card {
+    outline: none;
+    border: 2px dotted #fff;
+    border-radius: 13rem;
+    padding: 1.3rem 6rem;
+    color: #fff;
+    background: linear-gradient(to right top, #E028A2, #F0086B);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out .4s;
+    margin-bottom: 2rem;
+}
+
+
+.btn-card:hover {
+    transform: translateY(-1rem)
+}
+
+
 
 
 
@@ -388,6 +497,11 @@ div.special-artist-container img {
 
 
 /* Media queries */
+
+@media screen and (max-width: 848px) {
+    nav {
+
+    }
 
 @media screen and (max-width: 848px) {
     nav {
@@ -436,6 +550,12 @@ div.special-artist-container img {
 
     section#special-artist {
         padding: 0;
+    }
+
+    div.price-card-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
@@ -595,4 +715,25 @@ div.special-artist-container img {
     div.call-circle h2 {
         font-size: 1rem;
     }
+
+    section.pricing-plan {
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .card {
+        width: 29rem;
+    }
+
+    section.pricing-plan {
+        padding: 1rem 1rem;
+    }
+
+    div.pricing-plan-heading {
+        line-height: 1.41;
+        letter-spacing: 0;
+    }
+
 }
