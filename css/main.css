@@ -422,7 +422,7 @@ div.price-card-container {
     width: 32rem;
     height: auto;
     margin-top: 2rem;
-    transition: all cubic-bezier(0.47, 0, 0.745, 0.715) .3s;
+    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) .4s;
 }
 
 div.card:not(:last-of-type) {
@@ -515,12 +515,19 @@ section#contact {
     margin: 0;
     font-size: 7.5rem;
     line-height: 1.1;
+    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) .2s;
+}
+
+#contact h2:hover {
+    transform: translateY(-1rem);
 }
 
 #contact p {
     font-size: 2.5rem;
     margin-bottom: 1.4rem;
 }
+
+
 
 /* Footer */
 
@@ -780,14 +787,15 @@ section#contact {
     section.pricing-plan {
         padding: 2rem;
     }
-      #contact a:first-of-type {
-          margin-right: 0;
-          margin-bottom: 1rem;
-      }
 
-      #contact a {
-          font-size: 1rem;
-      }
+    #contact a:first-of-type {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    #contact a {
+        font-size: 1rem;
+    }
 }
 
 
@@ -804,5 +812,5 @@ section#contact {
         line-height: 1.41;
         letter-spacing: 0;
     }
-  
+
 }
