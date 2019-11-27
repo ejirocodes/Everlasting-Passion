@@ -697,7 +697,7 @@ div.footer-center {
 }
 
 div.footer-center div {
-    transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955) .2s ;
+    transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955) .2s;
 
 }
 
@@ -1082,6 +1082,16 @@ div.time {
     .grid-items img {
         width: 17.8rem;
         height: 14rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 4rem 2rem;
+    }
+
+    div.footer-center {
+        margin: 2rem 0;
+        
     }
 }
 
