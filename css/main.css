@@ -44,6 +44,8 @@ body {
     overflow-x: hidden;
     cursor: url(../img/cursor@2x.png),
         auto;
+    background-image: url(../img/woman-touching-her-hair-1727280.jpg);
+    background-repeat: no-repeat;
 
 }
 
@@ -236,7 +238,7 @@ div.hero-sub-text h2 {
     font-family: monospace;
     margin-bottom: 2rem;
     color: #f7f7f7;
-    
+
 }
 
 img {
@@ -319,11 +321,11 @@ li.cards_item:hover {
 
 section#performers {
     padding: 5rem 0;
-        background-image: url(../img/person-singing-1370545.jpg);
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
+    background-image: url(../img/person-singing-1370545.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -383,20 +385,50 @@ div.special-artist-container img {
 
 
 
-/* Gallery */ 
+/* Gallery */
+
+section#gallery {
+    background: url(../img/CALEB\ JOHNSON_161.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+section#gallery h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: monospace;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.733);
+    color: #fff;
+}
 div.custom-grid {
+    padding: 6rem 0;
+    /* filter: blur(4rem); */
     display: grid;
-    grid-template-columns: 30rem 30rem 30rem 30rem;
-    grid-template-rows: 22rem 22rem; 
-    justify-items: center;
+    grid-template-columns: 25rem 25rem 25rem 25rem;
+    grid-template-rows: 22rem 22rem;
+    justify-content: center;
+    gap: 1rem;
+    overflow-x: hidden;
 }
 
 .grid-items img {
-    width: 30rem;
+    width: 25rem;
     height: 22rem;
     object-fit: cover;
+    border: 4px solid #f7f7f7;
+    opacity: .8;
+    box-shadow: 4px -1px 4px rgba(0, 0, 0, .5),
+        -4px 1px 4px rgba(0, 0, 0, .5);
+    transition: all cubic-bezier(0.39, 0.575, 0.565, 1) .2s;
 }
 
+
+.grid-items img:hover {
+    opacity: 1;
+    transform: translateY(1rem);
+}
 
 
 /* Tickets */
