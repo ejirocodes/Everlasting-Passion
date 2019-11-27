@@ -42,7 +42,7 @@ body {
     background-color: #333;
     padding: 2rem;
     overflow-x: hidden;
-    cursor: url(../img/cursor@2x.png),
+    cursor: url(../img/svg/cursor.svg),
         auto;
     background-image: url(../img/woman-touching-her-hair-1727280.jpg);
     background-repeat: no-repeat;
