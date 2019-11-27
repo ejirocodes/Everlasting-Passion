@@ -46,6 +46,7 @@ body {
         auto;
     background-image: url(../img/woman-touching-her-hair-1727280.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -381,7 +382,7 @@ div.special-artist-container img {
 
 
 .special-artist-bio p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -393,19 +394,23 @@ section#gallery {
     background: url(../img/CALEB\ JOHNSON_161.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    
+    padding: 4rem 0;
 }
 
 
 section#gallery h1 {
     text-align: center;
-    font-size: 5.2rem;
+    font-size: 5.6rem;
     font-family: monospace;
-    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.863),
-    -3px 2px 3px rgba(0, 0, 0, 0.863);
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.411),
+        -3px 2px 3px rgba(0, 0, 0, 0.705);
     color: #fff;
+    text-transform: uppercase;
 }
+
 div.custom-grid {
+    margin-top: -4rem;
+
     padding: 6rem 0;
     /* filter: blur(4rem); */
     display: grid;
@@ -624,7 +629,7 @@ section#contact {
     padding: 8rem 1rem;
     text-align: center;
     font-family: monospace;
-
+    background-color: #f7f7f7;
 }
 
 #contact a {
@@ -641,7 +646,7 @@ section#contact {
     border: 2px dotted var(--color-main);
     display: inline-block;
     padding: .5rem 5rem;
-    box-shadow: 2px 1px 5px rgba(0, 0, 0, 1);
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, .4);
     margin: 0;
     font-size: 7.5rem;
     line-height: 1.1;
@@ -711,7 +716,21 @@ div.time {
         font-size: 1.2rem;
     }
 
+    div.custom-grid {
+        grid-template-columns: 23rem 23rem 23rem 23rem;
+        grid-template-rows: 22rem 22rem;
+    }
+
+    .grid-items img {
+        width: 23rem;
+        height: 22rem;
+    }
 }
+
+
+
+
+
 
 @media screen and (max-width: 848px) {
     nav {
@@ -741,7 +760,22 @@ div.time {
     div.hero-sub-text {
         margin-top: 8rem;
     }
+
+    div.custom-grid {
+        grid-template-columns: 22rem 22rem 22rem;
+        grid-template-rows: auto;
+    }
+
+    .grid-items img {
+        width: 22rem;
+        height: 18rem;
+    }
 }
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
     div.hero-main-text {
@@ -828,8 +862,21 @@ div.time {
 
     }
 
+    div.custom-grid {
+        grid-template-columns: 18rem 18rem 18rem;
+        grid-template-rows: auto;
+    }
+
+    .grid-items img {
+        width: 18rem;
+        height: 18rem;
+    }
 
 }
+
+
+
+
 
 
 
@@ -870,7 +917,25 @@ div.time {
     .special-artist-bio p {
         font-size: 1.3rem;
     }
+
+    div.custom-grid {
+        grid-template-columns: 16rem 16rem 16rem;
+        grid-template-rows: auto;
+    }
+
+    .grid-items img {
+        width: 16rem;
+        height: 14rem;
+    }
+
 }
+
+
+
+
+
+
+
 
 
 
@@ -975,6 +1040,17 @@ div.time {
         font-size: 1.2rem;
         padding: .2rem 1rem;
     }
+
+    div.custom-grid {
+        grid-template-columns: 17.8rem 17.8rem;
+        grid-template-rows: auto;
+        gap: .5rem;
+    }
+
+    .grid-items img {
+        width: 17.8rem;
+        height: 14rem;
+    }
 }
 
 
@@ -1009,6 +1085,27 @@ div.time {
     }
 }
 
+@media screen and (max-width: 360px) {
+    div.custom-grid {
+        grid-template-columns: 26rem;
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
+
+    .grid-items img {
+        width: 26rem;
+        height: 20rem;
+    }
+
+
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 320px) {
     .card {
@@ -1028,7 +1125,16 @@ div.time {
         font-size: 5rem;
     }
 
+    div.custom-grid {
+        grid-template-columns: 26rem;
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
 
+    .grid-items img {
+        width: 26rem;
+        height: 20rem;
+    }
 
 
 }
