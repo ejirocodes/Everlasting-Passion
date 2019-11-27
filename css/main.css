@@ -229,8 +229,31 @@ div.hero-sub-text {
 
 div.hero-sub-text h2 {
     margin: 0;
-
 }
+
+div.hero-sup-text h1 {
+    animation: moveInBottom 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation-delay: 1s;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    80% {
+        opacity: .6;
+        transform: rotate(30deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-5rem);
+
+    }
+}
+
 
 /* Performers */
 .performers-heading {
@@ -1092,7 +1115,7 @@ div.time {
 
     div.footer-center {
         margin: 2rem 0;
-        
+
     }
 }
 
