@@ -231,11 +231,12 @@ div.hero-sub-text h2 {
 
 /* Performers */
 .performers-heading {
-    font-size: 24px;
+    font-size: 4.5rem;
     text-align: center;
-    font-size: 3.4rem;
-    font-family: cursive;
+    font-family: monospace;
     margin-bottom: 2rem;
+    color: #f7f7f7;
+    
 }
 
 img {
@@ -291,7 +292,7 @@ li.cards_item:hover {
 }
 
 .card_image img {
-   width: 100%;
+    width: 100%;
 }
 
 .card_title {
@@ -317,7 +318,13 @@ li.cards_item:hover {
 }
 
 section#performers {
-    padding: 5rem 0
+    padding: 5rem 0;
+        background-image: url(../img/person-singing-1370545.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
 }
 
 
@@ -374,6 +381,21 @@ div.special-artist-container img {
     margin-bottom: 1rem;
 }
 
+
+
+/* Gallery */ 
+div.custom-grid {
+    display: grid;
+    grid-template-columns: 30rem 30rem 30rem 30rem;
+    grid-template-rows: 22rem 22rem; 
+    justify-items: center;
+}
+
+.grid-items img {
+    width: 30rem;
+    height: 22rem;
+    object-fit: cover;
+}
 
 
 
