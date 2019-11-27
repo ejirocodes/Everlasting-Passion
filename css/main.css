@@ -290,6 +290,10 @@ li.cards_item:hover {
     height: 12rem;
 }
 
+.card_image img {
+   width: 100%;
+}
+
 .card_title {
     font-size: 1.8rem;
     font-weight: 600;
