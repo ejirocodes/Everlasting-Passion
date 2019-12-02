@@ -44,7 +44,7 @@ body {
     overflow-x: hidden;
     cursor: url(../img/svg/cursor.svg),
         auto;
-    background-image: url(../img/woman-touching-her-hair-1727280.jpg);
+    background-image: url('https://images.pexels.com/photos/1727280/pexels-photo-1727280.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=2500');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -345,7 +345,7 @@ li.cards_item:hover {
 
 section#performers {
     padding: 5rem 0;
-    background-image: url(../img/person-singing-1370545.jpg);
+    background-image: url('https://images.pexels.com/photos/1370545/pexels-photo-1370545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1800');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
