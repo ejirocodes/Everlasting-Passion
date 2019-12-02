@@ -442,7 +442,6 @@ div.custom-grid {
     margin-top: -4rem;
 
     padding: 6rem 0;
-    /* filter: blur(4rem); */
     display: grid;
     grid-template-columns: 25rem 25rem 25rem 25rem;
     grid-template-rows: 22rem 22rem;
@@ -473,7 +472,6 @@ div.custom-grid {
 
 section.pricing-plan {
     padding: 4rem 12rem;
-    /* background: var(--color-main) */
 }
 
 div.pricing-plan-heading {
@@ -491,7 +489,7 @@ section.pricing-plan h1 {
 }
 
 section.pricing-plan h2 {
-    font-weight: 400;
+    font-weight: 900;
     font-size: 4.5rem;
     color: #fff;
 }
@@ -943,11 +941,6 @@ div.time {
 
 
 
-
-
-
-
-
 @media screen and (max-width: 550px) {
 
     div.hero-sub-text {
@@ -996,14 +989,6 @@ div.time {
     }
 
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1176,12 +1161,6 @@ div.time {
 
 
 }
-
-
-
-
-
-
 
 
 @media screen and (max-width: 320px) {
