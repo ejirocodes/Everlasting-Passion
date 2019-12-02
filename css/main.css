@@ -430,8 +430,6 @@ section#gallery {
 section#gallery h1 {
     text-align: center;
     font-size: 5.6rem;
-    font-family: 'Roboto Mono',
-        monospace;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.411),
         -3px 2px 3px rgba(0, 0, 0, 0.705);
     color: #fff;
@@ -633,8 +631,6 @@ div.card ul {
 
 #sponsors h2 {
     font-size: 5.2rem;
-    font-family: 'Roboto Mono',
-        monospace;
 }
 
 #sponsors p {
@@ -659,8 +655,6 @@ div.card ul {
 section#contact {
     padding: 8rem 1rem;
     text-align: center;
-    font-family: 'Roboto Mono',
-        monospace;
     background-color: #f7f7f7;
 }
 
