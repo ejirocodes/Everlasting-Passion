@@ -414,7 +414,7 @@ div.special-artist-container img {
 /* Gallery */
 
 section#gallery {
-    background: url(../img/CALEB\ JOHNSON_161.jpg) no-repeat center;
+    background: url('https://images.pexels.com/photos/1537636/pexels-photo-1537636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1800') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     padding: 4rem 0;
