@@ -110,7 +110,7 @@ div#hero {
 }
 
 div#main-hero {
-    background-image: url(../img/person-singing-1370545.jpg);
+    background-image: url('https://images.pexels.com/photos/1370545/pexels-photo-1370545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
