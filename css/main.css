@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,900|Roboto+Mono:500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,900|Pacifico|Roboto+Mono:500,700&display=swap');
 
 :root {
     --color-main: #01A171;
@@ -99,7 +99,8 @@ div.nav-main ul li.no-mr {
 
 .header-logo {
     color: var(--color-main);
-    font-family: cursive;
+    font-family: 'Pacifico',
+    cursive;
 }
 
 .header-logo a {
