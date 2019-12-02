@@ -100,7 +100,8 @@ div.nav-main ul li.no-mr {
 .header-logo {
     color: var(--color-main);
     font-family: 'Pacifico',
-    cursive;
+        cursive;
+    font-size: 1.8rem;
 }
 
 .header-logo a {
