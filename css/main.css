@@ -221,9 +221,10 @@ div.hero-sup-text p {
 
 div.hero-sub-text {
     width: 45%;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
     line-height: 1.3;
     transform: rotate(-90deg);
 
@@ -261,7 +262,8 @@ div.hero-sup-text h1 {
 .performers-heading {
     font-size: 4.5rem;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
     margin-bottom: 2rem;
     color: #f7f7f7;
 
@@ -402,7 +404,8 @@ div.special-artist-container img {
 .special-artist-bio h1 {
     font-size: 5rem;
     font-weight: 800;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
 }
 
 
@@ -426,7 +429,8 @@ section#gallery {
 section#gallery h1 {
     text-align: center;
     font-size: 5.6rem;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.411),
         -3px 2px 3px rgba(0, 0, 0, 0.705);
     color: #fff;
@@ -630,12 +634,14 @@ div.card ul {
 
 #sponsors h2 {
     font-size: 5.2rem;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
 }
 
 #sponsors p {
     font-size: 3rem;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
 }
 
 #sponsors img {
@@ -654,7 +660,8 @@ div.card ul {
 section#contact {
     padding: 8rem 1rem;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Roboto Mono',
+        monospace;
     background-color: #f7f7f7;
 }
 
@@ -738,8 +745,9 @@ div.time {
     position: fixed;
     top: 85vh;
     left: 85vw;
-    font-family: monospace;
-    font-size: 1.5rem;
+    font-family: 'Roboto Mono',
+        monospace;
+    font-size: 1.3rem;
     word-spacing: -2px;
     letter-spacing: -1px;
     line-height: 1.2;
