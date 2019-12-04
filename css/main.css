@@ -709,49 +709,7 @@ div.time {
 
 
 
-
 /* Footer */
-/* footer {
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6rem 4rem;
-    background: linear-gradient(to right, #E028A2, #F0086B);
-    font-family: monospace;
-    font-size: 2.4rem;
-}
-
-
-footer a {
-    color: #fff;
-    text-transform: uppercase;
-
-}
-
-.dev-link {
-    border: 1px solid #fff;
-    padding: .3rem 2rem;
-    border-radius: 1rem;
-}
-
-div.footer-dev {
-    text-align: center;
-}
-
-div.footer-dev div {
-    transition: all cubic-bezier(0.455, 0.03, 0.515, 0.955) .2s;
-
-}
-
-div.footer-dev div:hover {
-    transform: scale(1.08);
-} */
-
-/* footer {
-    position: fixed;
-    bottom: 0;
-} */
 
 .footer-distributed {
     background-color: #292c2f41;
@@ -779,10 +737,6 @@ div.footer-dev div:hover {
     color: #ffffff;
     font: normal 36px 'Cookie', cursive;
     margin: 0;
-}
-
-.footer-distributed h3 span {
-    color: #E028A2;
 }
 
 
@@ -936,7 +890,7 @@ footer a {
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
-
+}
 
 
 
