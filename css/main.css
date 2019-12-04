@@ -1019,6 +1019,10 @@ footer a {
 
     }
 
+    .footer-distributed .footer-center i.fa-envelope {
+        margin-left: 2.8rem;
+    }
+
 }
 
 
@@ -1332,6 +1336,11 @@ footer a {
         width: 26rem;
         height: 20rem;
     }
+    .footer-distributed .footer-center i.fa-envelope {
+        margin-left: 1.4rem;
+    }
 
-
+   .footer-distributed .footer-center i {
+       margin-left: -.8rem;
+   }
 }
