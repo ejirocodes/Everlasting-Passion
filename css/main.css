@@ -668,12 +668,13 @@ section#contact {
 
 
 #contact h2 {
-    border: 2px dotted var(--color-main);
+    border: 2px dotted var(--line-color);
+    color: var(--line-color);
     display: inline-block;
     padding: .5rem 5rem;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, .4);
     margin: 0;
-    font-size: 7.5rem;
+    font-size: 6.5rem;
     line-height: 1.1;
     transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) .2s;
 }
@@ -683,8 +684,10 @@ section#contact {
 }
 
 #contact p {
-    font-size: 2.5rem;
+    font-size: 2
+    rem;
     margin-bottom: 1.4rem;
+    color: var(--line-color);
 }
 
 
