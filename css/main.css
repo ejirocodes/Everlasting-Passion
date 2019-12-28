@@ -208,7 +208,6 @@ div.hero-sup-text p {
     text-transform: uppercase;
     background: linear-gradient(to right, #E028A2, #F0086B);
     padding: .8rem 2.2rem;
-    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .4);
     transition: all ease-in-out .2s;
 }
 
@@ -1003,7 +1002,6 @@ footer a {
 
     div.hero-sup-text a {
         padding: .4rem 1.8rem;
-        box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .4);
     }
 
     section#special-artist {
