@@ -924,13 +924,20 @@ footer a {
     }
 
     div.custom-grid {
-        grid-template-columns: 23rem 23rem 23rem 23rem;
-        grid-template-rows: 22rem 22rem;
+        grid-template-columns: 21rem 21rem 21rem 21rem;
+        grid-template-rows: auto ;
     }
 
     .grid-items img {
         width: 23rem;
         height: 22rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    div.custom-grid {
+        grid-template-columns: 19.2rem 19.2rem 19.2rem 19.2rem;
+        grid-template-rows: auto;
     }
 }
 
