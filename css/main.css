@@ -622,11 +622,13 @@ div.card ul {
 /* Sponsors */
 
 #sponsors {
-    padding: 4.5rem 2rem;
+    padding: 8rem 2rem;
     text-align: center;
-    background-color: rgba(34, 34, 34, 0.315);
+    background-color: #292c2f41;
     color: var(--line-color);
-    box-shadow: 0 -3px 0 var(--color-main);
+    box-shadow: 0 -1px 0 var(--line-color);
+    font-family: 'Roboto Mono', monospace;
+
 }
 
 #sponsors h2 {
@@ -635,8 +637,6 @@ div.card ul {
 
 #sponsors p {
     font-size: 3rem;
-    font-family: 'Roboto Mono',
-        monospace;
 }
 
 #sponsors img {
@@ -652,7 +652,7 @@ div.card ul {
 
 /* Contact */
 
-section#contact {
+/* section#contact {
     padding: 8rem 1rem;
     text-align: center;
 }
@@ -688,7 +688,7 @@ section#contact {
     rem;
     margin-bottom: 1.4rem;
     color: var(--line-color);
-}
+} */
 
 
 /* Fixed Time */
@@ -697,8 +697,7 @@ div.time {
     position: fixed;
     top: 85vh;
     left: 85vw;
-    font-family: 'Roboto Mono',
-        monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 1.3rem;
     word-spacing: -2px;
     letter-spacing: -1px;
@@ -721,7 +720,8 @@ div.time {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
-    margin-top: 80px;
+    padding-top: 10rem;
+    border-top: 1px solid var(--line-color);
 }
 
 .footer-distributed .footer-left,
@@ -1338,11 +1338,12 @@ footer a {
         width: 26rem;
         height: 20rem;
     }
+
     .footer-distributed .footer-center i.fa-envelope {
         margin-left: 1.4rem;
     }
 
-   .footer-distributed .footer-center i {
-       margin-left: -.8rem;
-   }
+    .footer-distributed .footer-center i {
+        margin-left: -.8rem;
+    }
 }
