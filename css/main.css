@@ -90,10 +90,6 @@ div.nav-main ul li a {
     margin-right: 2rem;
 }
 
-div.nav-main ul li a:last-child {
-    /* margin-right: 0; */
-}
-
 div.nav-main ul li {
     display: flex;
 
