@@ -988,6 +988,10 @@ footer a {
         width: 22rem;
         height: 18rem;
     }
+
+    div.time {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1025,8 +1029,6 @@ footer a {
     div.time {
         top: 85vh;
         left: 80vw;
-        font-size: 1.5rem;
-
     }
 
     .footer-distributed .footer-center i.fa-envelope {
@@ -1144,6 +1146,9 @@ footer a {
 
     section.pricing-plan h2 {
         font-size: 4rem;
+    }
+    div.time {
+        padding: 1rem;
     }
 }
 
