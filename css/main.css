@@ -72,6 +72,10 @@ div.nav-main ul li:not(:last-of-type) {
     margin-right: 1.5rem;
 }
 
+div.nav-main ul li:first-of-type{
+    margin-left: 1.5rem;
+}
+
 div.br {
     width: 1px;
     height: 14px;
@@ -84,7 +88,10 @@ div.nav-main ul li a {
     color: var(--color-main);
     font-size: 1.3rem;
     margin-right: 2rem;
+}
 
+div.nav-main ul li a:last-child {
+    /* margin-right: 0; */
 }
 
 div.nav-main ul li {
@@ -927,6 +934,15 @@ footer a {
     }
 }
 
+@media screen and (max-width: 875px) {
+   div.nav-main ul li:not(:last-of-type) {
+       margin-right: 1rem;
+   }
+  
+   div.nav-main ul li:first-of-type {
+       margin-left: 0;
+   }
+}
 @media screen and (max-width: 848px) {
     nav {
         display: block;
