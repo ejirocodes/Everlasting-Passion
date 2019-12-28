@@ -72,7 +72,7 @@ div.nav-main ul li:not(:last-of-type) {
     margin-right: 1.5rem;
 }
 
-div.nav-main ul li:first-of-type{
+div.nav-main ul li:first-of-type {
     margin-left: 1.5rem;
 }
 
@@ -935,14 +935,15 @@ footer a {
 }
 
 @media screen and (max-width: 875px) {
-   div.nav-main ul li:not(:last-of-type) {
-       margin-right: 1rem;
-   }
-  
-   div.nav-main ul li:first-of-type {
-       margin-left: 0;
-   }
+    div.nav-main ul li:not(:last-of-type) {
+        margin-right: 1rem;
+    }
+
+    div.nav-main ul li:first-of-type {
+        margin-left: 0;
+    }
 }
+
 @media screen and (max-width: 848px) {
     nav {
         display: block;
@@ -1128,6 +1129,17 @@ footer a {
         height: 14rem;
     }
 
+    .performers-heading {
+        font-size: 4rem;
+    }
+
+    section#gallery h1 {
+        font-size: 4rem;
+    }
+
+    section.pricing-plan h2 {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width: 425px) {
